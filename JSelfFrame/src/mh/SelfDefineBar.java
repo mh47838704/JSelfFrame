@@ -53,7 +53,7 @@ public class SelfDefineBar extends JPanel {
 		panel.setLayout(new BorderLayout(0, 0));
 
 		setting = new JLabel("");
-		setting.setIcon(new ImageIcon("E:\\Program Files (x86)\\eclipse\\java-neon\\workspace\\DRCloudClient\\img\\setting_on.png"));
+		setting.setIcon(new ImageIcon(CommonUtil.getFullPath("\\img\\setting_on.png")));
 		panel.add(setting, BorderLayout.CENTER);
 		setting.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -68,7 +68,7 @@ public class SelfDefineBar extends JPanel {
 		panel_1.setLayout(new GridLayout(0, 4, 0, 0));
 
 		miniSize = new JLabel("");
-		miniSize.setIcon(new ImageIcon("E:\\Program Files (x86)\\eclipse\\java-neon\\workspace\\DRCloudClient\\img\\min_size.png"));
+		miniSize.setIcon(new ImageIcon(CommonUtil.getFullPath("\\img\\min_size.png")));
 		panel_1.add(miniSize);
 
 		panel_4 = new JPanel();
@@ -76,7 +76,7 @@ public class SelfDefineBar extends JPanel {
 		panel_1.add(panel_4);
 
 		exit = new JLabel("");
-		exit.setIcon(new ImageIcon("E:\\Program Files (x86)\\eclipse\\java-neon\\workspace\\DRCloudClient\\img\\close.png"));
+		exit.setIcon(new ImageIcon(CommonUtil.getFullPath("\\img\\close.png")));
 		panel_1.add(exit);
 
 		panel_2 = new JPanel();

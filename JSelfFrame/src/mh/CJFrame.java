@@ -49,7 +49,7 @@ public class CJFrame extends JFrame {
 	}
 
 	public void initBackgroundPanel() {
-		backGroundImg = new ImageIcon(CommonUtil.getFullPath("\\img\\timg.png"));// 随便找一张图就可以看到效果。
+		backGroundImg = new ImageIcon(CommonUtil.getFullPath("\\img\\timg.png"));
 		int imgWidth = backGroundImg.getIconWidth();
 		int imgHeight = backGroundImg.getIconHeight();
 
